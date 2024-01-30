@@ -24,15 +24,7 @@ function Header({ searchQuery, setSearchQuery, showSearch }) {
 
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          {/* <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: "100px" }}
-            navbarScroll
-          >
-            {/* <Nav.Link href="/" className="logo">
-              Ezy Learn
-            </Nav.Link> 
-          </Nav> */}
+         
           <Form className={`d-flex ${showSearch ? "" : "hideSearch"}`}>
             <Form.Control
               type="search"
@@ -55,24 +47,7 @@ function Header({ searchQuery, setSearchQuery, showSearch }) {
             <Nav.Link className="home-nav">
               <Link to="/courses">Courses</Link>
             </Nav.Link>
-            {/*   <NavDropdown title="Courses" id="navbarScrollingDropdown">
-              <NavDropdown.Item className="link-title">
-                <Link to="/courses">All Courses </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item className="link-title">
-                <Link to="/tech-courses">Technical Courses</Link>
-              </NavDropdown.Item>
-
-              <NavDropdown.Item className="link-title">
-                <Link to="/non-tech-courses">Non-Technical Courses</Link>
-              </NavDropdown.Item>
-            </NavDropdown> */}
-            {/* <Nav.Link>
-              <Link to="/cart">
-                <ShoppingCartIcon className="cart" />
-              </Link>
-            </Nav.Link> */}
+           
             {savedUsername !== "" && savedPassword !== "" ? (
               <>
                 <Link to="/profile">
