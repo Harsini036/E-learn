@@ -1,0 +1,154 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.brandlogo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10px 15px;
+}
+
+.container-fluid {
+  margin: 0.2%;
+  margin-left: 1%;
+}
+.link-title {
+  font-weight: 600;
+}
+
+.login {
+  font-size: 0.9rem;
+  padding: 0.3rem 1rem;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 10px;
+  border: none;
+}
+
+.login:hover {
+  color: rgb(127, 177, 233) !important;
+  background-color: rgb(37, 36, 36);
+  transition-delay: 0.4s;
+}
+
+.signup {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  background-color: rgb(32, 81, 126);
+  color: rgb(245, 240, 240);
+  border-radius: 10px;
+  border: none;
+}
+
+.signup:hover {
+  color: aliceblue;
+  background-color: rgb(80, 128, 173);
+  transition-delay: 0.4s;
+}
+.cart {
+  color: rgb(195, 196, 197);
+}
+.cart:hover {
+  color: rgb(127, 177, 233) !important;
+  transition-delay: 0.6s;
+}
+
+.nav-item {
+  padding: 0 1.4rem;
+  margin: 1.5rem;
+}
+
+.nav-link:hover {
+  color: rgb(127, 177, 233) !important;
+}
+
+.search {
+  width: 100%;
+}
+
+.form-control {
+  width: 450px;
+}
+
+.logo {
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgb(175, 152, 225);
+  text-decoration: none;
+}
+
+.navbar-collapse {
+  justify-content: space-around !important;
+}
+.home-nav a {
+  text-decoration: none;
+  color: rgb(182, 184, 186);
+}
+
+.home-nav a:hover {
+  color: rgb(127, 177, 233) !important;
+}
+@media (max-width: 1000px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+  }
+
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    width: 80%;
+    margin: 2% auto;
+  }
+
+  .login,
+  .signup {
+    background-color: transparent;
+  }
+
+  .login,
+  .signup {
+    color: rgb(195, 196, 197);
+  }
+
+  .form-control,
+  .btn-outline-info {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .profile {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
+
+.profile {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.link-title a,
+.link-title a a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.hideSearch {
+  visibility: hidden;
+}

@@ -1,0 +1,84 @@
+.footer {
+  position: block;
+  padding: 2%;
+  margin-top: 5% !important;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(35, 32, 32);
+}
+
+.brandlogo {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  margin: 10px 15px;
+}
+
+.footer-inner {
+  margin: 3% 5%;
+  display: flex;
+  gap: 90px;
+  color: aliceblue;
+}
+.footer-inner p {
+  color: aliceblue;
+}
+
+.footer-end {
+  padding: 0% 5% !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyrights {
+  font-size: small;
+  color: aliceblue;
+  font-weight: 500;
+  margin: auto 3%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.links a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 0.8rem;
+}
+
+.link a:hover {
+  color: rgb(66, 154, 155) !important;
+}
+
+.last-item {
+  margin-left: auto;
+}
+.getapp {
+  font-size: 0.9rem;
+  padding: 0.3rem 1rem;
+  color: aliceblue;
+  background-color: transparent;
+  border-radius: 10px;
+  border: none;
+}
+
+.getapp:hover {
+  color: rgb(235, 222, 222);
+  background-color: transparent;
+  transition-delay: 0.4s;
+}
+
+@media (max-width: 1000px) {
+  .links a {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .getapp {
+    display: none;
+  }
+}

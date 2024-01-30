@@ -1,0 +1,263 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "1.jpg",
+      "duration": "8 weeks",
+      "no_of_students": 1234567,
+      "price": 2000,
+      "actual_price": 3000,
+      "rating": 4.7,
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "best_seller": true,
+      "no_of_ratings": 122345,
+      "prerequisites": ["Basic JavaScript knowledge", "Basic CSS knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment"
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Introduction to Web Dev - advanced",
+      "instructor": "John Mary",
+      "description": "Learn the basics of Web development and build your first web app.",
+      "enrollmentStatus": "Closed",
+      "price": 1000,
+      "actual_price": 2500,
+      "no_of_students": 9014567,
+      "rating": 4.6,
+      "best_seller": true,
+      "no_of_ratings": 522345,
+      "thumbnail": "2.jpg",
+      "duration": "4 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Basic CSS knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to HTML, CSS, JS",
+          "content": "Overview of React Native, setting up your development environment"
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Power BI",
+      "instructor": "William ken",
+      "description": "Learn how to analyze and build user-friendly Data analytics tab",
+      "enrollmentStatus": "In progress",
+      "price": 1000,
+      "actual_price": 2500,
+      "no_of_students": 2234567,
+      "rating": 4.6,
+      "best_seller": true,
+      "no_of_ratings": 522345,
+      "thumbnail": "3.jpg",
+      "duration": "4 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Basic CSS knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Science",
+          "content": "Overview of React Native, setting up your development environment"
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First Project",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Introduction to Spring6",
+      "instructor": "Dao Len",
+      "description": "Learn the spring 6, spring boot3",
+      "enrollmentStatus": "Closed",
+      "price": 3000,
+      "actual_price": 3999,
+      "no_of_students": 874567,
+      "rating": 4.3,
+      "best_seller": true,
+      "no_of_ratings": 522345,
+      "thumbnail": "5.jpg",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Basic CSS knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment"
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Power BI",
+      "instructor": "Rita sharma",
+      "description": "Learn how to analyze and build user-friendly Data analytics tab",
+      "enrollmentStatus": "Open",
+      "price": 1000,
+      "actual_price": 2500,
+      "no_of_students": 2234567,
+      "rating": 4.6,
+      "best_seller": true,
+      "no_of_ratings": 522345,
+      "thumbnail": "4.jpg",
+      "duration": "4 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Basic CSS knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Science",
+          "content": "Overview of React Native, setting up your development environment"
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First Project",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Introduction to ReactJs - Advanced",
+      "instructor": "Vikram seth",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "6.jpg",
+      "duration": "8 weeks",
+      "no_of_students": 1234567,
+      "price": 2000,
+      "actual_price": 3000,
+      "rating": 4.3,
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "best_seller": true,
+      "no_of_ratings": 122345,
+      "prerequisites": ["Basic JavaScript knowledge", "Basic CSS knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment"
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Power BI Advanced",
+      "instructor": "Nia Ken",
+      "description": "Learn how to analyze and build user-friendly Data analytics tab",
+      "enrollmentStatus": "Open",
+      "price": 2000,
+      "actual_price": 3500,
+      "no_of_students": 234567,
+      "rating": 4.1,
+      "best_seller": true,
+      "no_of_ratings": 522345,
+      "thumbnail": "3.jpg",
+      "duration": "4 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Basic CSS knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Science",
+          "content": "Overview of Data science, setting up your development environment"
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First Project",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        }
+      ]
+    }
+  ]
+}
